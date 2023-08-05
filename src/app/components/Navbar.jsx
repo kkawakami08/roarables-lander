@@ -1,15 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import { HiMenu } from "react-icons/hi";
 
 export default function Navbar() {
   return (
-    <div className="bg-brand-green p-3">
+    <div className=" p-3 flex justify-between shadow-lg">
       <Image
         src="/img/roarables-branding.png"
-        alt="me"
-        width="50"
-        height="50"
+        alt="roarables logo"
+        width="60"
+        height="60"
       />
+      <div className="bg-brand-red rounded-full w-11  flex items-center justify-center">
+        <HiMenu size="1.5rem" color="white" className="" />
+      </div>
     </div>
   );
 }
