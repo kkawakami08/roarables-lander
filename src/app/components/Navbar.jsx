@@ -4,7 +4,7 @@ import { HiMenu } from "react-icons/hi";
 
 export default function Navbar() {
   return (
-    <div className=" p-3 flex justify-between shadow-lg">
+    <div className=" p-3 flex justify-between shadow-lg fixed z-10 bg-white w-full">
       <Image
         src="/img/roarables-branding.png"
         alt="roarables logo"
