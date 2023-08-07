@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="bg-brand-yellow flex items-center flex-col text-center py-6 px-16 gap-8">
+    <div className="bg-brand-blue flex items-center flex-col text-center py-6 px-16 gap-8">
       <h2 className="text-5xl font-bold text-white drop-shadow-lg leading-tight">
         ORGANIC, PLANT-BASED COOKIES
       </h2>
@@ -38,7 +38,7 @@ export default function Hero() {
       />
       <Image
         src="/img/cookie-6.png"
-        alt="cookies"
+        alt="cheeky cookie"
         width="200"
         height="200"
         className="pb-10 -mt-5"
