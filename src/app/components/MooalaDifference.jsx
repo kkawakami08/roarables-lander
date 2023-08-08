@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export default function MooalaDifference() {
   return (
-    <div className=" flex flex-col items-center">
+    <div className=" flex flex-col items-center gap-10 pt-10 px-4">
       <h3 className="text-brand-purple text-5xl font-semibold text-center">
-        THE MOOALA ORGANIC DIFFERENCE
+        THE ROARABLES ORGANIC DIFFERENCE
       </h3>
-      <div className="flex flex-col items-center bg-brand-green w-11/12 rounded-lg">
+      <div className="flex flex-col items-center bg-brand-green w-full rounded-lg">
         <div className="flex items-center  justify-end  w-full px-2 relative">
           <Image
             src="/img/roarables-logo.png"
@@ -22,7 +22,7 @@ export default function MooalaDifference() {
           </h4>
         </div>
         <ComparisonTable />
-        <div className="flex items-center justify-start  w-full relative bg-brand-yellow rounded-b-lg border-2 border-brand-green border-t-0 py-2">
+        <div className="flex items-center justify-start  w-full relative bg-brand-yellow rounded-b-lg border-2 border-brand-green border-t-0 py-2 px-4">
           <p className="text-brand-purple text-xl font-semibold text-center  w-3/4">
             Learn more about the benefits of organic! www.ccof.org/why-organic
           </p>
@@ -35,6 +35,12 @@ export default function MooalaDifference() {
           />
         </div>
       </div>
+      <p className="text-lg text-center">
+        We believe USDA-organic is a step above the rest, which is why our
+        plant-based milks are made from ingredients you can pronounce -- and
+        never made with GMOs, herbicides, preservatives, or toxic chemicals that
+        could be found in other mainstream products.
+      </p>
     </div>
   );
 }
