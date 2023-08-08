@@ -18,6 +18,7 @@ module.exports = {
         "brand-purple": "#473144",
         "brand-purple-light": "#60435C",
         "brand-blue": "#BFD1E5",
+        "brand-blue-light": "#E2EAF3",
         "brand-green": "#696047",
       },
     },

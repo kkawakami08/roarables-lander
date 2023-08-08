@@ -4,7 +4,7 @@ import MooalaDifference from "./components/MooalaDifference";
 
 export default function Home() {
   return (
-    <main className="pt-20">
+    <main className="pt-20 w-full">
       <Hero />
       <Ingredients />
       <MooalaDifference />
