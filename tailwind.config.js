@@ -20,6 +20,7 @@ module.exports = {
         "brand-blue": "#BFD1E5",
         "brand-blue-light": "#E2EAF3",
         "brand-green": "#696047",
+        "brand-green-light": "#928563",
       },
     },
   },
