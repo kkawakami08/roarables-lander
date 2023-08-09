@@ -4,16 +4,17 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
+import { useDetectClickOutside } from "react-detect-click-outside";
 
-export default function NavBarPopOut({ visibility, handleClick }) {
+export default function NavBarPopOut({ visibility, handleClick, closePopUp }) {
   const hiddenClass =
     "hidden bg-brand-red text-white absolute right-0 z-10 w-3/4 h-screen  pb-8 pt-4 pr-10 rounded-l-full flex-col items-end gap-20";
   const visibleClass =
     " bg-brand-red text-white absolute right-0 z-10 w-3/4 h-screen  pb-10 pr-8 rounded-l-full flex flex-col items-end gap-20 pt-4";
   const navbarPopOutClass = visibility ? visibleClass : hiddenClass;
-
+  const ref = useDetectClickOutside({ onTriggered: closePopUp });
   return (
-    <div className={`${navbarPopOutClass}`}>
+    <div className={`${navbarPopOutClass}`} ref={ref}>
       <div
         className="bg-brand-red-dark rounded-full w-11 h-11 flex items-center justify-center drop-shadow-md"
         onClick={handleClick}

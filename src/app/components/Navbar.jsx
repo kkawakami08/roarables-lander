@@ -9,9 +9,17 @@ export default function Navbar() {
   const handleClick = () => {
     setVisibility((prevVisibility) => !prevVisibility);
   };
+  const closePopUp = () => {
+    setVisibility(false);
+  };
+
   return (
     <div className="relative">
-      <NavBarPopOut visibility={visibility} handleClick={handleClick} />
+      <NavBarPopOut
+        visibility={visibility}
+        handleClick={handleClick}
+        closePopUp={closePopUp}
+      />
       <div className=" p-4 px-8 flex justify-between shadow-lg fixed z-5 bg-white w-full">
         <Image
           src="/img/roarables-branding.png"
