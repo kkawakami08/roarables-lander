@@ -1,8 +1,8 @@
-import Hero from "./components/Hero";
-import Ingredients from "./components/Ingredients";
-import MooalaDifference from "./components/MooalaDifference";
-import Supporters from "./components/Supporters";
-import Posts from "./components/Posts";
+import Hero from "./components/homepage/Hero";
+import Ingredients from "./components/homepage/Ingredients";
+import MooalaDifference from "./components/homepage/MooalaDifference";
+import Supporters from "./components/homepage/Supporters";
+import Posts from "./components/homepage/Posts";
 
 export default function Home() {
   return (

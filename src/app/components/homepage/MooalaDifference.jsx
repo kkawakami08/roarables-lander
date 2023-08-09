@@ -37,7 +37,7 @@ export default function MooalaDifference() {
       </div>
       <p className="text-lg text-center">
         We believe USDA-organic is a step above the rest, which is why our
-        plant-based milks are made from ingredients you can pronounce -- and
+        plant-based cookies are made from ingredients you can pronounce -- and
         never made with GMOs, herbicides, preservatives, or toxic chemicals that
         could be found in other mainstream products.
       </p>
