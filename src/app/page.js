@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Ingredients from "./components/Ingredients";
 import MooalaDifference from "./components/MooalaDifference";
+import Supporters from "./components/Supporters";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Ingredients />
       <MooalaDifference />
+      <Supporters />
     </main>
   );
 }

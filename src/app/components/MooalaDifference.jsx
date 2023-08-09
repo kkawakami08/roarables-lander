@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function MooalaDifference() {
   return (
-    <div className=" flex flex-col items-center gap-10 pt-10 px-4">
+    <div className=" flex flex-col items-center gap-10 py-10 px-4">
       <h3 className="text-brand-purple text-5xl font-semibold text-center">
         THE ROARABLES ORGANIC DIFFERENCE
       </h3>
