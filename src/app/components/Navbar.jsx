@@ -20,7 +20,7 @@ export default function Navbar() {
         handleClick={handleClick}
         closePopUp={closePopUp}
       />
-      <div className=" p-4 px-8 flex justify-between shadow-lg fixed z-5 bg-white w-full">
+      <div className=" p-4 px-8 flex justify-between shadow-lg fixed z-10 bg-white w-full">
         <Image
           src="/img/roarables-branding.png"
           alt="roarables logo"

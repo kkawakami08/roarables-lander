@@ -8,9 +8,9 @@ import { useDetectClickOutside } from "react-detect-click-outside";
 
 export default function NavBarPopOut({ visibility, handleClick, closePopUp }) {
   const hiddenClass =
-    "hidden bg-brand-red text-white absolute right-0 z-10 w-3/4 h-screen  pb-8 pt-4 pr-10 rounded-l-full flex-col items-end gap-20";
+    "hidden bg-brand-red text-white fixed top-0 right-0 z-20 w-3/4 h-screen  pb-8 pt-4 pr-10 rounded-l-full flex-col items-end gap-20";
   const visibleClass =
-    " bg-brand-red text-white absolute right-0 z-10 w-3/4 h-screen  pb-10 pr-8 rounded-l-full flex flex-col items-end gap-20 pt-4";
+    " bg-brand-red text-white fixed right-0 top-0 z-20 w-3/4 h-screen  pb-10 pr-8 rounded-l-full flex flex-col items-end gap-20 pt-4";
   const navbarPopOutClass = visibility ? visibleClass : hiddenClass;
   const ref = useDetectClickOutside({ onTriggered: closePopUp });
   return (
